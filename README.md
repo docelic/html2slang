@@ -1,9 +1,9 @@
 # html2slang
-Converts HTML pages to slang (template language)
+Converts HTML pages to slang (templating language).
 
 This tool converts HTML pages into [slang](https://github.com/jeromegn/slang).
 
-Does it work? YES.
+Does it work? Yes.
 
 Primary use case is converting HTML templates into much nicer and more efficient slang syntax, so that the development can be done in slang from there.
 
@@ -14,6 +14,15 @@ Various methods of running it:
 
 ```shell
   perl html2slang.pl file1.html file2.html
+
   cat file1.html | perl html2slang.pl
+
   perl html2slang.pl < file1.html
+```
+
+Output is always printed to STDOUT. Redirect to where desired from there.
+For example, to convert all *.html files in a directory to slang:
+
+```bash
+for p in *.html; do perl html2slang.pl "$p" > "${p/.html/.slang}"; done
 ```
