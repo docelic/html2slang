@@ -1,7 +1,5 @@
 # html2slang
-Converts HTML pages to slang (templating language).
-
-This tool converts HTML pages into [slang](https://github.com/jeromegn/slang).
+Converts HTML pages to [slang](https://github.com/jeromegn/slang).
 
 Does it work? Yes.
 
