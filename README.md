@@ -20,7 +20,8 @@ Various methods of running it:
 
 Output is always printed to STDOUT. Redirect to where desired from there.
 
-For example, to convert all *.html files in a directory to slang:
+For example, to convert all *.html files in a directory and save the
+under the same name with extension ".slang":
 
 ```bash
 for p in *.html; do perl html2slang.pl "$p" > "${p/.html/.slang}"; done
