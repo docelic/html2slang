@@ -1,5 +1,5 @@
 # html2slang
-Converts HTML pages to [slang](https://github.com/jeromegn/slang).
+Converts HTML pages to [slang](https://github.com/jeromegn/slang) (templating language).
 
 Does it work? Yes.
 
