@@ -26,7 +26,6 @@ use subs qw/flush clear_state/;
 # Initialize basic variables/values
 $indent = 0;
 @noncontainer = qw/meta link br hr img input !doctype/;
-$options{convert_class_ids}= 1;
 clear_state;
 
 # Load all HTML text into $_
